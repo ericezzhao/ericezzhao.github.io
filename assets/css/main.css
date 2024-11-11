@@ -63,6 +63,23 @@ body {
     }
 }
 
+.project-tags {
+    margin-top: 0.5em;
+}
+
+.tag {
+    display: inline-block;
+    color: #b74e91; /* Text color */
+    padding: 0.3em 0.6em; /* Padding for a bubble effect */
+    margin: 0.2em; /* Space between tags */
+    border: 1px solid #b74e91; /* Outline with the specified color */
+    border-radius: 15px; /* Rounded edges */
+    font-size: 0.85em;
+    font-weight: 500;
+    background-color: transparent; /* No background color */
+	font-family: inherit;
+}
+
 ol, ul {
 	list-style: none;
 }
